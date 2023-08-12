@@ -1,0 +1,30 @@
+
+
+/*.......... SecondSection......... */
+.second-sec {
+    margin-top: 4rem;
+}
+.note {
+    width: 594px;
+    height: 180px;
+    margin: 0 auto;
+}
+.note q {
+    font-family: Lexend;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+.profile {
+    margin-right: 20%;
+    text-align: start;
+}
+
+.profile-image {
+    margin-left: 75%;
+}
+
+
+

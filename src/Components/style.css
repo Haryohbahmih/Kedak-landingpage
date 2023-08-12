@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bona+Nova&family=Dancing+Script&family=Lexend:wght@100;200;300&family=Libre+Baskerville:ital@0;1&family=Lumanosimo&family=Playfair+Display&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.9s;
+}
+
+.first-sec {
+    height: 735px;
+    border-radius: 16px;
+    margin: 0 30px 0 30px;
+    background: #F4F4F4;
+    position: relative;
+    top: 60px;
+}
+
+.max-width-h1 {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Lexend', sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.text {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #ADB5BD;
+}
+
+.btn {
+    border: 1px solid #D6DADE;
+    background-color: transparent;
+    padding: 0 0.5rem .2rem 0.5rem;
+    width: 217px;
+    height: 50px;
+    border-radius: 16px;
+    gap: 8px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+
+.btn,
+.bronze button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.foto1 {
+    width: 639px;
+    margin-top: 78px;
+    margin-bottom: 0;
+}
+
+/* FOOTERSTYLES */
+
+footer {
+    background: #F4F4F4;
+    padding: 20px;
+}
+
+.footer-icon i {
+    margin: 0 5px;
+}
+.footer-line{
+    width: 700px;
+    margin: 1rem auto;
+}
+.contact-text {
+    font-family: Lexend;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+}
+
+
+
+/* ......Toggle styles......... */
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Define styles for dark mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode button {
+    border-color: white;
+    color: white;
+}
+
+.dark-mode .first-sec {
+    background: black;
+    color: white;
+}
+.dark-mode .second-sec {
+    background: black;
+    color: white;
+}
+.dark-mode .third-sec {
+    background: black;
+    color: white;
+}
+.dark-mode .card-box {
+    background: black;
+    color: white;
+}
+.dark-mode .card2-box{
+    background: black;
+    color: white;
+}
+.dark-mode .card3-box{
+    background: black;
+    color: white;
+}
+.dark-mode .card4-box{
+    background: black;
+    color: white;
+}
+.dark-mode .box {
+    background: black;
+    color: white;
+}
+.dark-mode footer  {
+    background: black;
+    color: white;
+}
+.dark-mode .bronze button {
+    background-color:black;
+    color: white;
+    border-color: white;
+}
+
+/* Style for the toggle button */
+.toggle-button {
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 1000;
+}

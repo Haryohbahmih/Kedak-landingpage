@@ -1,0 +1,26 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.toggle-button {
+    border: 1px solid #ADB5BD;
+    border-radius: 12px;
+    background: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
