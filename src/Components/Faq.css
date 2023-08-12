@@ -1,26 +1,34 @@
 
 
-
 .faqq-container {
     width: 600px;
     margin: 0 auto;
+    margin-bottom: 10%;
 }
 
 .faq-container {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    padding: 20px;
+    padding:0 20px;
+}
+.faq-container h2{
+    margin-bottom: 20px;
+}
+.quest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.faq-icon{
+    margin-left:255px;
 }
 
 .faq-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.faq-icon {
-    align-items: flex-end;
 }
 
 .faq-container button {
@@ -32,4 +40,17 @@
     letter-spacing: -4%;
     border: 1px solid #D6DADE;
     border-radius: 16px;
+}
+.faq-container button:hover{
+    border-bottom: 5px solid #D6DADE;
+}
+
+.faq-answer{
+   color: #D6DADE;
+   transition: .4s ease-in-out;
+}
+
+.faq-icon{
+    display: flex;
+    float: right;
 }

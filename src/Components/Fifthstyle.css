@@ -3,30 +3,31 @@
 
 /* FifthSEction */
 .boxes {
-    width: 653px;
-    /* height:  591px; */
+    width: 753px;
     margin: 1rem auto;
 }
 
 .box {
-    height: 398px;
-    border: 1px solid #D6DADE;
+    height: 399px;
+    border: 1px solid #8e8e8e;
     padding: 20px;
     text-align: center;
     font-size: 18px;
     background-color: #f9f9f9;
     border-radius: 16px;
 }
-
+.box:hover {
+    width: 230px;
+}
 
 .green-border {
-    border: 2px solid #FC4981;
+    border: 2px solid rgb(198, 43, 226);
 }
 
 .bronze {
-    width: 116px;
+    width: 126px;
     text-align: center;
-    margin: 0rem auto;
+    margin: 0 auto;
 }
 
 .bronze h4 {
@@ -41,13 +42,11 @@
 
 .bronze h3 {
     width: 116px;
-    /* height: 91px; */
     font-family: Lexend;
     font-size: 26px;
     font-weight: 600;
     line-height: 39px;
     letter-spacing: -0.03em;
-    /* text-align: center; */
 }
 
 .bronze button {
@@ -57,17 +56,18 @@
     font-size: 13px;
     border: 1px solid #D6DADE;
 }
-
+.bronze button:hover{
+    border-bottom: 5px solid #D6DADE;
+}
 .box .list {
     margin-top: 15px;
 }
 
 .box li {
-    width: 116px;
-    height: 38px;
+    width: 136px;
+    height: 36px;
     margin: 2px auto;
     text-align: start;
-    line-height: 9px;
 }
 
 .box li {

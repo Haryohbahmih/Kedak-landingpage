@@ -4,8 +4,8 @@ import './Fifthstyle.css';
 function FifthSection({ isDarkMode }) {
     return (
         <>
-            <section className='py-5 mt-5 text-center'>
-                <div className="container">
+            <section className='py-5 mt-5 text-center '>
+                <div className="container fifth-sec">
                     <div className='row'>
                         <div className='col-md-12'>
                             <div className='d-flex align-items-center justify-content-center'>

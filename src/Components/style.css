@@ -6,6 +6,7 @@
     transition: background-color 0.9s;
 }
 
+
 .first-sec {
     height: 735px;
     border-radius: 16px;
@@ -45,16 +46,13 @@
     letter-spacing: 0.1em;
 }
 
-
-.btn,
-.bronze button:hover {
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+.btn:hover{
+    border-bottom: 5px solid #D6DADE;
 }
 
 .foto1 {
     width: 639px;
-    margin-top: 78px;
+    margin-top: 76px;
     margin-bottom: 0;
 }
 
@@ -79,7 +77,6 @@ footer {
     line-height: 20px;
     letter-spacing: -0.04em;
 }
-
 
 
 /* ......Toggle styles......... */

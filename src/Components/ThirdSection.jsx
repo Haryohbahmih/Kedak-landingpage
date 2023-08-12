@@ -1,16 +1,19 @@
 import React from 'react';
 import './Thirdstyle.css'
 
-function ThirdSection({  isDarkMode }) {
+function ThirdSection({ isDarkMode }) {
     return (
         <>
-            <section  className={`text-center third-sec ${isDarkMode ? 'dark' : ''}`}>
+            <section className={`text-center third-sec ${isDarkMode ? 'dark' : ''}`}>
                 <div className='container'>
                     <div className='row parts'>
                         <div className='col-md-6 part1'>
                             {/* First part content */}
                             <div>
-                                <p> <i class="fa-regular fa-lightbulb"></i>&nbsp;The Idea</p>
+                                <div className="hoverable d-flex ">
+                                    <i class="fa-regular fa-lightbulb"></i>
+                                    <p className='numm'>The Idea</p>
+                                </div>
                                 <h2>Lifetime connections on your phone</h2>
                                 <button className='btn mx-2'>
                                     <i class="fa-brands fa-apple mr-2"></i>&nbsp; Download on Apple store
